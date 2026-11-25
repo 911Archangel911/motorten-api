@@ -1,0 +1,22 @@
+node_modules/
+.env
+.env.*
+!.env.example
+
+/generated/
+/prisma/generated/
+
+*.log
+npm-debug.log*
+
+.vscode/
+.DS_Store
+# Служебные файлы инструментов
+.agents/
+.claude/
+.windsurf/
+skills-lock.json
+
+# Случайные и резервные файлы
+.code
+*.bak
